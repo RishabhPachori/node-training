@@ -1,0 +1,38 @@
+{
+  "name": "trello_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"tsc && node dist/trelloApi/trelloApi.js",
+    "test-all": "yarn test-orders && yarn test-delivery && test-notification",
+    "test-orders": "tsc && node dist/orders.js",
+    "test-delivery": "tsc && node dist/delivery-sub.js",
+    "test-notification": "tsc && node dist/notification-sub.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.10.0",
+    "@types/jest": "^26.0.20",
+    "@types/jira-client": "^6.13.1",
+    "@types/puppeteer": "^5.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jest": "^26.6.3",
+    "jira-client": "^6.21.1",
+    "jira-connector": "^3.1.0",
+    "jsdoc": "^3.6.6",
+    "puppeteer": "^5.2.1",
+    "trello": "^0.10.0",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.9",
+    "@types/node": "^14.14.16",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
+  }
+}

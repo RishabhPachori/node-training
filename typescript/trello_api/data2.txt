@@ -1,0 +1,9 @@
+Tests-specs-rishabh
+
+In this document you find the different specifications for “tests” that we want to run. 
+Implement them down in one or more functions that do one thing only and then combine these functions). The template for each task I linked to in a google sheet here:.   each task with granular functions (break
+
+TODO:  each task with granular functions (break 
+
+Todo: The template for each task I linked to in a google sheet here:.
+
